@@ -38,12 +38,10 @@ install -d $RPM_BUILD_ROOT%{_javaclassdir}
 
 install lib/gnu-regexp-%{version}.jar $RPM_BUILD_ROOT%{_javaclassdir}/gnu-regexp.jar
 
-gzip -9nf README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README TODO
 %{_javaclassdir}/gnu-regexp.jar
