@@ -3,16 +3,16 @@ Summary(pl):	Wyra¿enia regularne dla jêzyka Java
 Name:		gnu.regexp
 Version:	1.1.4
 Release:	1
-Group:		Development/Languages/Java
-Url:		http://www.cacas.org/java/gnu/regexp/
-Source0:	ftp://ftp.tralfamadore.com/pub/java/%{name}-%{version}.tar.gz
 License:	LGPL
+Group:		Development/Languages/Java
+Source0:	ftp://ftp.tralfamadore.com/pub/java/%{name}-%{version}.tar.gz
+URL:		http://www.cacas.org/java/gnu/regexp/
 BuildRequires:	jdk
 Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_javaclassdir	%{_libdir}/java/
+%define		_javaclassdir	%{_libdir}/java
 
 %description
 The gnu.regexp package is a pure-Java implementation of a traditional
@@ -22,7 +22,7 @@ popular development tools, including awk, sed, emacs, perl and grep.
 %description -l pl
 Pakiet zawiera implementacjê tradycyjnych wyra¿eñ regularnych.
 Sk³adnia tej implementacji emuluje wiele popularnych tego typu
-narzêdzi, m.in.: awk, sed-a emacs-a, perl-a czy te¿ grep-a.
+narzêdzi, m.in.: awk, seda, emacsa, Perla oraz grepa.
 
 %prep
 %setup -q
