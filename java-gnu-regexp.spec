@@ -4,7 +4,7 @@ Name:		gnu.regexp
 Version:	1.1.4
 Release:	1
 Group:		Development/Languages/Java
-Url:		http://www.cacas.org/java/gnu/regexp
+Url:		http://www.cacas.org/java/gnu/regexp/
 Source0:	ftp://ftp.tralfamadore.com/pub/java/%{name}-%{version}.tar.gz
 License:	LGPL
 BuildRequires:	jdk
