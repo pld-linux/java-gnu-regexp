@@ -11,6 +11,7 @@ Source0:	ftp://ftp.tralfamadore.com/pub/java/%{name}-%{version}.tar.gz
 License:	LGPL
 BuildArch:	noarch
 BuildRequires:	jdk
+Requires:	jre
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_javaclassdir	%{_libdir}/java/
