@@ -4,8 +4,6 @@ Name:		gnu.regexp
 Version:	1.1.4
 Release:	1
 Group:		Development/Languages/Java
-Group(de):	Entwicklung/Sprachen/Java
-Group(pl):	Programowanie/Jêzyki/Java
 Url:		http://www.cacas.org/java/gnu/regexp
 Source0:	ftp://ftp.tralfamadore.com/pub/java/%{name}-%{version}.tar.gz
 License:	LGPL
