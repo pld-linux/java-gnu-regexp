@@ -6,6 +6,7 @@ Release:	1
 License:	LGPL
 Group:		Development/Languages/Java
 Source0:	ftp://ftp.tralfamadore.com/pub/java/%{name}-%{version}.tar.gz
+# Source0-md5:	4b5a3722f1d814ee30591ad21b519d28
 URL:		http://www.cacas.org/java/gnu/regexp/
 BuildRequires:	jdk
 Requires:	jre
