@@ -9,9 +9,9 @@ Group(pl):	Programowanie/Jêzyki/Java
 Url:		http://www.cacas.org/java/gnu/regexp
 Source0:	ftp://ftp.tralfamadore.com/pub/java/%{name}-%{version}.tar.gz
 License:	LGPL
-BuildArch:	noarch
 BuildRequires:	jdk
 Requires:	jre
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_javaclassdir	%{_libdir}/java/
