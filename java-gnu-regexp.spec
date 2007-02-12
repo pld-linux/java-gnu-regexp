@@ -1,5 +1,5 @@
 Summary:	Regular Expressions for Java
-Summary(pl):	Wyra¿enia regularne dla jêzyka Java
+Summary(pl.UTF-8):   WyraÅ¼enia regularne dla jÄ™zyka Java
 Name:		gnu.regexp
 Version:	1.1.4
 Release:	1
@@ -20,10 +20,10 @@ The gnu.regexp package is a pure-Java implementation of a traditional
 (non-POSIX) NFA regular expression engine. Its syntax can emulate many
 popular development tools, including awk, sed, emacs, perl and grep.
 
-%description -l pl
-Pakiet zawiera implementacjê tradycyjnych wyra¿eñ regularnych.
-Sk³adnia tej implementacji emuluje wiele popularnych tego typu
-narzêdzi, m.in.: awk, seda, emacsa, Perla oraz grepa.
+%description -l pl.UTF-8
+Pakiet zawiera implementacjÄ™ tradycyjnych wyraÅ¼eÅ„ regularnych.
+SkÅ‚adnia tej implementacji emuluje wiele popularnych tego typu
+narzÄ™dzi, m.in.: awk, seda, emacsa, Perla oraz grepa.
 
 %prep
 %setup -q
