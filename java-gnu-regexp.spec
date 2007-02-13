@@ -1,5 +1,5 @@
 Summary:	Regular Expressions for Java
-Summary(pl.UTF-8):   Wyrażenia regularne dla języka Java
+Summary(pl.UTF-8):	Wyrażenia regularne dla języka Java
 Name:		gnu.regexp
 Version:	1.1.4
 Release:	1
